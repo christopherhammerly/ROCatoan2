@@ -4,7 +4,7 @@
 
 // Asserts breaks every 12 items.
 
-var showProgressBar = true;
+var showProgressBar = false;
 
 // Main shuffleSequence definition
 var shuffleSequence = seq(
@@ -17,59 +17,40 @@ var shuffleSequence = seq(
     'debrief',
     'exit');
 
-// Using modified controller coded by Ethan Poole (Umass, 2017)
-// Disallows use of mouse for responses.
-var DS = 'EPDashedAcceptabilityJudgment';
-
-//  Set the Prolific Academic Completion URL
-var sendingResultsMessage = "Please wait. Your data are being sent to the server."; 
-var completionMessage = "Thank you for your participation. Your completion code is ASRJCD6V. To complete this experiment, go to: https://app.prolific.ac/submissions/complete?cc=ASRJCD6V."; 
-var completionErrorMessage = "There was an error in sending your data to the server. You may still complete this experiment. Your completion code is ASRJCD6V. Please go to: https://app.prolific.ac/submissions/complete?cc=ASRJCD6V."; 
+// Variable definitions.
+var DS = 'DashedAcceptabilityJudgment';
 
 // Controller settings.
-// Parameter settings taken from Staub 2009
 var defaults = [
-    "EPDashedSentence", {
-        mode: 'speeded acceptability',
-        display: 'in place',
-        blankText: '+',
-        wordTime: 1000,
-        wordPauseTime: 150
-        },
-        DS, {randomOrder: false,
+    DS, {q: 'Is that sentence grammatical?',
+        as: [['s','Yes'],['k','No']],
+        randomOrder: false,
         presentHorizontally: true,
         mode: 'speeded acceptability',
         display: 'in place',
         blankText: '+',
-        wordTime: 250,
-        wordPauseTime: 150,
-        timeout: null,
-        hasCorrect: 1,
-        q: ''}
+        wordTime: 225,
+        wordPauseTime: 100,
+        timeout: 2000}
 ];
 
-// Add breaks every 24 items
+// Add breaks every 12 items
 function modifyRunningOrder(ro)
 {
     for (var i = 0; i < ro.length; ++i)
     {
-        if (i % 24 == 1
-            && i > 23
-            && i < 250)
+        if (i % 12 == 10
+            && i > 13
+            && i < 200)
         {
             ro[i].push(new DynamicElement(
                 "Message",
                 {html: "<p>Please take a short break. Press a button to continue when you're ready.</p>", transfer: "keypress"},
             true));
-            ro[i].push(new DynamicElement(
-                "Separator",
-                {transfer: 2500, normalMessage: "Hands in place! Your first sentence of this block will start soon."},
-            true));
         }
     }
     return ro;
 }
-
 
 // Items array.
 var items = [
