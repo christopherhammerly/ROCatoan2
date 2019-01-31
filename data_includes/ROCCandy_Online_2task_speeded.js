@@ -11,7 +11,7 @@ var shuffleSequence = seq(
 //  'consent',
     'setcounter',
 //    'intro',
-    'prepractice',
+//    'prepractice',
     'practice',
     sepWith("timeoutSep", rshuffle(startsWith('ROC'),startsWith('f'))),
     'debrief',
