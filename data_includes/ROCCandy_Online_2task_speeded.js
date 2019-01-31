@@ -33,7 +33,7 @@ var DS = 'EPDashedAcceptabilityJudgment';
 //        wordPauseTime: 100,
 //        timeout: 2000}
 //];
-
+//
 var defaults = [
     "EPDashedSentence", {
         mode: 'speeded acceptability',
