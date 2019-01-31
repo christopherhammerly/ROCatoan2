@@ -18,10 +18,30 @@ var shuffleSequence = seq(
     'exit');
 
 // Variable definitions.
-var DS = 'DashedAcceptabilityJudgment';
+var DS = 'EPDashedAcceptabilityJudgment';
 
 // Controller settings.
+//var defaults = [
+//    DS, {q: 'Is that sentence grammatical?',
+//        as: [['s','Yes'],['k','No']],
+//        randomOrder: false,
+//        presentHorizontally: true,
+//        mode: 'speeded acceptability',
+//        display: 'in place',
+//        blankText: '+',
+//        wordTime: 225,
+//        wordPauseTime: 100,
+//        timeout: 2000}
+//];
+
 var defaults = [
+    "EPDashedSentence", {
+        mode: 'speeded acceptability',
+        display: 'in place',
+        blankText: '+',
+        wordTime: 1000,
+        wordPauseTime: 150
+        },
     DS, {q: 'Is that sentence grammatical?',
         as: [['s','Yes'],['k','No']],
         randomOrder: false,
@@ -56,7 +76,7 @@ function modifyRunningOrder(ro)
 var items = [
 
 ["setcounter", "__SetCounter__", { }],
-["timeoutSep", Separator, { transfer: 1000, normalMessage: "", errorMessage: "Timed out. Please respond more quickly."}],
+["timeoutSep", Separator, { transfer: 250, normalMessage: "", errorMessage: "Timed out. Please respond more quickly."}],
 
 ["consent", "Form", {consentRequired: true, html: {include: "consent.html"}}],
 ["intro", "SSForm", {consentRequired: true, html: {include: "intro.html"}}],
@@ -94,7 +114,7 @@ var items = [
 //
 //["practice", Separator, { transfer: 1000, normalMessage: "+"}],
 
-[["ROCCandy-MisMatch",1], DS, {s:"At the meeting, Belinda greeted the assistants who the manager supervises."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
+[["ROCCandy-MisMatch",1], "EPDashedSentence", {s:"+"}, DS, {s:"At the meeting, Belinda greeted the assistants who the manager supervises."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
 [["ROCCandy-MatchUnGram",1], DS, {s:"At the meeting, Belinda greeted the assistant who the manager supervise."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
 [["ROCCandy-MisMatchUnGram",1], DS, {s:"At the meeting, Belinda greeted the assistants who the manager supervise."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
 [["ROCCandy-Match",1], DS, {s:"At the meeting, Belinda greeted the assistant who the manager supervises."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
