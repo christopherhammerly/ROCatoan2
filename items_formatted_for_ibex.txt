@@ -1,0 +1,338 @@
+[["ROCOUT-MultiMatch"],1], DS, {s:"From across the room, Armand spotted the cousin of the painter who knits."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],1], DS, {s:"From across the room, Armand spotted the cousin of the painters who knits."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],1], DS, {s:"From across the room, Armand spotted the cousins of the painter who knits."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-NoMatch"],1], DS, {s:"From across the room, Armand spotted the cousins of the painters who knits."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-MultiMatch"],2], DS, {s:"At the meeting, Belinda greeted the assistant of the manager who curses."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],2], DS, {s:"At the meeting, Belinda greeted the assistant of the managers who curses."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],2], DS, {s:"At the meeting, Belinda greeted the assistants of the manager who curses."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-NoMatch"],2], DS, {s:"At the meeting, Belinda greeted the assistants of the managers who curses."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-MultiMatch"],3], DS, {s:"In the lobby, Clyde bumped into the chauffeur of the CEO who is reckless."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],3], DS, {s:"In the lobby, Clyde bumped into the chauffeur of the CEOs who is reckless."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],3], DS, {s:"In the lobby, Clyde bumped into the chauffeurs of the CEO who is reckless."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-NoMatch"],3], DS, {s:"In the lobby, Clyde bumped into the chauffeurs of the CEOs who is reckless."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-MultiMatch"],4], DS, {s:"Daria crossed the quad to speak to the coworker of the administrator who is progressive."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],4], DS, {s:"Daria crossed the quad to speak to the coworker of the administrators who is progressive."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],4], DS, {s:"Daria crossed the quad to speak to the coworkers of the administrator who is progressive."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-NoMatch"],4], DS, {s:"Daria crossed the quad to speak to the coworkers of the administrators who is progressive."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-MultiMatch"],5], DS, {s:"Edwin has been reading about the sister of the actor who was visiting."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],5], DS, {s:"Edwin has been reading about the sister of the actors who was visiting."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],5], DS, {s:"Edwin has been reading about the sisters of the actor who was visiting."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-NoMatch"],5], DS, {s:"Edwin has been reading about the sisters of the actors who was visiting."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-MultiMatch"],6], DS, {s:"From the gallery, Franny observed the nurse of the surgeon who was in charge."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],6], DS, {s:"From the gallery, Franny observed the nurse of the surgeons who was in charge."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],6], DS, {s:"From the gallery, Franny observed the nurses of the surgeon who was in charge."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-NoMatch"],6], DS, {s:"From the gallery, Franny observed the nurses of the surgeons who was in charge."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-MultiMatch"],7], DS, {s:"Gerald introduced himself to the niece of the billionaire who sails."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],7], DS, {s:"Gerald introduced himself to the niece of the billionaires who sails."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],7], DS, {s:"Gerald introduced himself to the nieces of the billionaire who sails."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-NoMatch"],7], DS, {s:"Gerald introduced himself to the nieces of the billionaires who sails."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-MultiMatch"],8], DS, {s:"Hilda was only vaguely acquainted with the relative of the celebrity who was blogging."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],8], DS, {s:"Hilda was only vaguely acquainted with the relative of the celebrities who was blogging."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],8], DS, {s:"Hilda was only vaguely acquainted with the relatives of the celebrity who was blogging."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-NoMatch"],8], DS, {s:"Hilda was only vaguely acquainted with the relatives of the celebrities who was blogging."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-MultiMatch"],9], DS, {s:"At the press conference, Isaac recorded the translator of the ambassador who jokes."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],9], DS, {s:"At the press conference, Isaac recorded the translator of the ambassadors who jokes."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],9], DS, {s:"At the press conference, Isaac recorded the translators of the ambassador who jokes."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-NoMatch"],9], DS, {s:"At the press conference, Isaac recorded the translators of the ambassadors who jokes."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-MultiMatch"],10], DS, {s:"During the budget negotiation, Janet charmed the assistant of the executive who decides."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],10], DS, {s:"During the budget negotiation, Janet charmed the assistant of the executives who decides."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],10], DS, {s:"During the budget negotiation, Janet charmed the assistants of the executive who decides."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-NoMatch"],10], DS, {s:"During the budget negotiation, Janet charmed the assistants of the executives who decides."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-MultiMatch"],11], DS, {s:"On the fishing trip, we laughed at the uncle of the sailor who was confused."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],11], DS, {s:"On the fishing trip, we laughed at the uncle of the sailors who was confused."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],11], DS, {s:"On the fishing trip, we laughed at the uncles of the sailor who was confused."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-NoMatch"],11], DS, {s:"On the fishing trip, we laughed at the uncles of the sailors who was confused."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-MultiMatch"],12], DS, {s:"At trial, we scrutinized the prisoner of the FBI agent who was lying."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],12], DS, {s:"At trial, we scrutinized the prisoner of the FBI agents who was lying."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],12], DS, {s:"At trial, we scrutinized the prisoners of the FBI agent who was lying."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-NoMatch"],12], DS, {s:"At trial, we scrutinized the prisoners of the FBI agents who was lying."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-MultiMatch"],13], DS, {s:"During the demonstration, you photographed the soldier of the lieutenant who was camouflaged."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],13], DS, {s:"During the demonstration, you photographed the soldier of the lieutenants who was camouflaged."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],13], DS, {s:"During the demonstration, you photographed the soldiers of the lieutenant who was camouflaged."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-NoMatch"],13], DS, {s:"During the demonstration, you photographed the soldiers of the lieutenants who was camouflaged."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-MultiMatch"],14], DS, {s:"Karl recognized the hostage of the pirate who was on TV."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],14], DS, {s:"Karl recognized the hostage of the pirates who was on TV."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],14], DS, {s:"Karl recognized the hostages of the pirate who was on TV."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-NoMatch"],14], DS, {s:"Karl recognized the hostages of the pirates who was on TV."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-MultiMatch"],15], DS, {s:"During the play, we all heckled the murderer of the prince who was disguised."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],15], DS, {s:"During the play, we all heckled the murderer of the princes who was disguised."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],15], DS, {s:"During the play, we all heckled the murderers of the prince who was disguised."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-NoMatch"],15], DS, {s:"During the play, we all heckled the murderers of the princes who was disguised."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-MultiMatch"],16], DS, {s:"Before the party, Lorraine texted the brother of the schoolgirl who raps."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],16], DS, {s:"Before the party, Lorraine texted the brother of the schoolgirls who raps."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],16], DS, {s:"Before the party, Lorraine texted the brothers of the schoolgirl who raps."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-NoMatch"],16], DS, {s:"Before the party, Lorraine texted the brothers of the schoolgirls who raps."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-MultiMatch"],17], DS, {s:"At the potluck, Marcus chatted with the aunt of the nun who bakes."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],17], DS, {s:"At the potluck, Marcus chatted with the aunt of the nuns who bakes."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],17], DS, {s:"At the potluck, Marcus chatted with the aunts of the nun who bakes."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-NoMatch"],17], DS, {s:"At the potluck, Marcus chatted with the aunts of the nuns who bakes."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-MultiMatch"],18], DS, {s:"Everyone in the plague-ravaged village avoided the servant of the sorceress who was mysterious."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],18], DS, {s:"Everyone in the plague-ravaged village avoided the servant of the sorceresses who was mysterious."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],18], DS, {s:"Everyone in the plague-ravaged village avoided the servants of the sorceress who was mysterious."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-NoMatch"],18], DS, {s:"Everyone in the plague-ravaged village avoided the servants of the sorceresses who was mysterious."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-MultiMatch"],19], DS, {s:"At the charity show, Noreen nodded to the sidekick of the actor who was juggling."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],19], DS, {s:"At the charity show, Noreen nodded to the sidekick of the actors who was juggling."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],19], DS, {s:"At the charity show, Noreen nodded to the sidekicks of the actor who was juggling."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-NoMatch"],19], DS, {s:"At the charity show, Noreen nodded to the sidekicks of the actors who was juggling."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-MultiMatch"],20], DS, {s:"Someone at the church meeting complained about the secretary of the bishop who was controversial."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],20], DS, {s:"Someone at the church meeting complained about the secretary of the bishops who was controversial."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],20], DS, {s:"Someone at the church meeting complained about the secretaries of the bishop who was controversial."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-NoMatch"],20], DS, {s:"Someone at the church meeting complained about the secretaries of the bishops who was controversial."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-NoMatch"],21], DS, {s:"Down at the pub, Ollie gossiped about the daughter of the nurse who were at church."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],21], DS, {s:"Down at the pub, Ollie gossiped about the daughter of the nurses who were at church."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],21], DS, {s:"Down at the pub, Ollie gossiped about the daughters of the nurse who was at church."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-MultiMatch"],21], DS, {s:"Down at the pub, Ollie gossiped about the daughters of the nurses who was at church."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-NoMatch"],22], DS, {s:"For her art class, Priscilla had been sketching the guru of the student who were chanting."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],22], DS, {s:"For her art class, Priscilla had been sketching the guru of the students who were chanting."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],22], DS, {s:"For her art class, Priscilla had been sketching the gurus of the student who were chanting."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-MultiMatch"],22], DS, {s:"For her art class, Priscilla had been sketching the gurus of the students who were chanting."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-NoMatch"],23], DS, {s:"From the lounge you could see the pilot of the millionaire who were distrusted."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],23], DS, {s:"From the lounge you could see the pilot of the millionaires who were distrusted."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],23], DS, {s:"From the lounge you could see the pilots of the millionaire who were distrusted."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-MultiMatch"],23], DS, {s:"From the lounge you could see the pilots of the millionaires who were distrusted."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-NoMatch"],24], DS, {s:"Quentin panicked and tried calling the therapist of the widow who were at work."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],24], DS, {s:"Quentin panicked and tried calling the therapist of the widows who were at work."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],24], DS, {s:"Quentin panicked and tried calling the therapists of the widow who were at work."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-MultiMatch"],24], DS, {s:"Quentin panicked and tried calling the therapists of the widows who were at work."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-NoMatch"],25], DS, {s:"No one could seem to find the shipmate of the cadet who usually bugle."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],25], DS, {s:"No one could seem to find the shipmate of the cadets who usually bugle."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],25], DS, {s:"No one could seem to find the shipmates of the cadet who usually bugle."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-MultiMatch"],25], DS, {s:"No one could seem to find the shipmates of the cadets who usually bugle."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-NoMatch"],26], DS, {s:"If you flipped the channel, you would see the accomplice of the thief who were indicted."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],26], DS, {s:"If you flipped the channel, you would see the accomplice of the thieves who were indicted."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],26], DS, {s:"If you flipped the channel, you would see the accomplices of the thief who were indicted."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-MultiMatch"],26], DS, {s:"If you flipped the channel, you would see the accomplices of the thieves who were indicted."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-NoMatch"],27], DS, {s:"Everyone at the party groaned at the bodyguard of the diva who smoke."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],27], DS, {s:"Everyone at the party groaned at the bodyguard of the divas who smoke."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],27], DS, {s:"Everyone at the party groaned at the bodyguards of the diva who smoke."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-MultiMatch"],27], DS, {s:"Everyone at the party groaned at the bodyguards of the divas who smoke."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-NoMatch"],28], DS, {s:"Despite our appointment, we couldn't get past the secretary of the boardmember who were in control."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],28], DS, {s:"Despite our appointment, we couldn't get past the secretary of the boardmembers who were in control."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],28], DS, {s:"Despite our appointment, we couldn't get past the secretaries of the boardmember who were in control."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-MultiMatch"],28], DS, {s:"Despite our appointment, we couldn't get past the secretaries of the boardmembers who were in control."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-NoMatch"],29], DS, {s:"You can get a towel from the pool boy of the celebrity who sunbathe."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],29], DS, {s:"You can get a towel from the pool boy of the celebrities who sunbathe."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],29], DS, {s:"You can get a towel from the pool boys of the celebrity who sunbathe."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-MultiMatch"],29], DS, {s:"You can get a towel from the pool boys of the celebrities who sunbathe."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-NoMatch"],30], DS, {s:"Rosalina testified against the detective of the senator who were caught."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],30], DS, {s:"Rosalina testified against the detective of the senators who were caught."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],30], DS, {s:"Rosalina testified against the detectives of the senator who were caught."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-MultiMatch"],30], DS, {s:"Rosalina testified against the detectives of the senators who were caught."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-NoMatch"],31], DS, {s:"Before the exhibition, Silas telephoned the friend of the bodybuilder who write."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],31], DS, {s:"Before the exhibition, Silas telephoned the friend of the bodybuilders who write."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],31], DS, {s:"Before the exhibition, Silas telephoned the friends of the bodybuilder who write."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-MultiMatch"],31], DS, {s:"Before the exhibition, Silas telephoned the friends of the bodybuilders who write."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-NoMatch"],32], DS, {s:"At her orientation, Tamara recently met the nephew of the professor who paint."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],32], DS, {s:"At her orientation, Tamara recently met the nephew of the professors who paint."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],32], DS, {s:"At her orientation, Tamara recently met the nephews of the professor who paint."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-MultiMatch"],32], DS, {s:"At her orientation, Tamara recently met the nephews of the professors who paint."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-NoMatch"],33], DS, {s:"Everyone at the coffeeshop sympathized with the courier of the florist who were complaining."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],33], DS, {s:"Everyone at the coffeeshop sympathized with the courier of the florists who were complaining."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],33], DS, {s:"Everyone at the coffeeshop sympathized with the couriers of the florist who were complaining."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-MultiMatch"],33], DS, {s:"Everyone at the coffeeshop sympathized with the couriers of the florists who were complaining."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-NoMatch"],34], DS, {s:"Despite the good press, we didn't really like the commander of the soldier who whistle."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],34], DS, {s:"Despite the good press, we didn't really like the commander of the soldiers who whistle."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],34], DS, {s:"Despite the good press, we didn't really like the commanders of the soldier who whistle."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-MultiMatch"],34], DS, {s:"Despite the good press, we didn't really like the commanders of the soldiers who whistle."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-NoMatch"],35], DS, {s:"No one quite knew how to respond to the buddy of the janitor who burp."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],35], DS, {s:"No one quite knew how to respond to the buddy of the janitors who burp."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],35], DS, {s:"No one quite knew how to respond to the buddies of the janitor who burp."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-MultiMatch"],35], DS, {s:"No one quite knew how to respond to the buddies of the janitors who burp."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-NoMatch"],36], DS, {s:"At the summit, Ursula warmly greeted the advisor of the tycoon who snowboard."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],36], DS, {s:"At the summit, Ursula warmly greeted the advisor of the tycoons who snowboard."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],36], DS, {s:"At the summit, Ursula warmly greeted the advisors of the tycoon who snowboard."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-MultiMatch"],36], DS, {s:"At the summit, Ursula warmly greeted the advisors of the tycoons who snowboard."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-NoMatch"],37], DS, {s:"Vlad once again evaded the deputy of the sheriff who never relent."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],37], DS, {s:"Vlad once again evaded the deputy of the sheriffs who never relent."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],37], DS, {s:"Vlad once again evaded the deputies of the sheriff who never relent."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-MultiMatch"],37], DS, {s:"Vlad once again evaded the deputies of the sheriffs who never relent."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-NoMatch"],38], DS, {s:"The cunning Wally outmaneuvered the henchman of the villain who often fail."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],38], DS, {s:"The cunning Wally outmaneuvered the henchman of the villains who often fail."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],38], DS, {s:"The cunning Wally outmaneuvered the henchmen of the villain who often fail."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-MultiMatch"],38], DS, {s:"The cunning Wally outmaneuvered the henchmen of the villains who often fail."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-NoMatch"],39], DS, {s:"Xena was shocked by the publicist of the performer who rarely appear."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],39], DS, {s:"Xena was shocked by the publicist of the performers who rarely appear."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],39], DS, {s:"Xena was shocked by the publicists of the performer who rarely appear."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-MultiMatch"],39], DS, {s:"Xena was shocked by the publicists of the performers who rarely appear."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["ROCOUT-NoMatch"],40], DS, {s:"You can be the penpal of the prisoner who also draw."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-LowMatch"],40], DS, {s:"You can be the penpal of the prisoners who also draw."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-HighMatch"],40], DS, {s:"You can be the penpals of the prisoner who also draw."}, Question, {q: "Is this sentence grammatical?"}],
+[["ROCOUT-MultiMatch"],40], DS, {s:"You can be the penpals of the prisoners who also draw."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],900], DS, {s:"For her daughter's birthday party, Alice hired a clown who juggles."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],901], DS, {s:"During his speech at the high school, Brad called out the students who heckles."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],902], DS, {s:"Because no one was dancing, Morris called up his friend who spins techno. "}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],903], DS, {s:"During the airshow, General Griff intently watched the inexperienced pilots who sometimes crashes."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],904], DS, {s:"Actually, we wouldn't usually hire any worker who commutes."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],905], DS, {s:"We heard that Johnny simultaneously dated three girls who is Brazilian. "}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],906], DS, {s:"At the party, Mary Anne kept talking with the German visitor who was mysterious."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],907], DS, {s:"Ignoring my advice, Mrs. Dahlgren sought out the party hosts who was in hiding."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],908], DS, {s:"At the end of class, Professor Brown counseled the young student who had been criticized.   "}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],909], DS, {s:"At the comedy show, we tried to ignore the audience members who was heckling. "}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],910], DS, {s:"As a babysitter, Kelly should know how to handle the bratty kids who misbehave."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],911], DS, {s:"To my surprise, nobody knew that one guy over there who smoke."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],912], DS, {s:"At the meeting, the boss wanted to know about the new commuters who bike."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],913], DS, {s:"Actually my dog Loki will definitely bite any man who walk by."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],914], DS, {s:"At our school, the Provost has no pity for the students who plagiarize."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],915], DS, {s:"After the accident, that one nice cop consoled the bystander who were upset."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],916], DS, {s:"I couldn't go home because my mother was with some old friends who were in town."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],917], DS, {s:"Unfortunately, the young student teacher couldn't handle the kid who were hyperactive."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],918], DS, {s:"At the annual Veteran's Day parade, we all greeted the soldiers who were serving."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],919], DS, {s:"It was very difficult for John to console the victim who were injured."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],920], DS, {s:"Although there was an administrator at the rally, it was the students who were in charge."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],921], DS, {s:"First the organizers honored the scientists, but the patient who was cured also received recognition."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],922], DS, {s:"The barking dog irritated Sal, but the cats who were always trampling his plants didn't bother him."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],923], DS, {s:"Even though the quarterback apologized, everyone supported the players who was injured. "}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],924], DS, {s:"Tracy gave snacks to her kids, before she poured a beer for her sister who were visiting."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],925], DS, {s:"The books that Quentin bought for his nephew was actually not very age-appropriate."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],926], DS, {s:"The DMV clerks who scared the teenager before his test was reprimanded by a supervisor."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],927], DS, {s:"The sommelier who brought the wines over were not trying to pressure the diners."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],928], DS, {s:"The avocados seemed ripe, but the lemon were not ready to be squeezed."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],929], DS, {s:"The edition that the comic book fans couldn't find were only available in second-hand shops."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],930], DS, {s:"I honestly can't remember if Kelly or her twin sister was at the party."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],931], DS, {s:"Either the laptop or the desktop is infected with a virus, but John won't tell me which."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],932], DS, {s:"The old duke and his young bride never talk and everyone can't stop gossiping about it. "}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],933], DS, {s:"Jess couldn't believe it, but the little puppy and the mean old dachshund was getting along."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],934], DS, {s:"Polly put out some milk for the cats because either Mr. Spots or the old tabby were whining."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],935], DS, {s:"King Leoric and the general was planning a siege on the neighboring kingdom's armory."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],936], DS, {s:"Happily, Gregory and his mother knows how to bake professional grade croissants from scratch."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],937], DS, {s:"All of a sudden the goalie and the referee starts fighting, and the crowd went absolutely nuts."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],938], DS, {s:"Only Suzy or the new girl were allowed to join the popular kids' table at lunch."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],939], DS, {s:"Only Howard, and not his younger brother, were suspended for covering the mascot in toilet paper."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],940], DS, {s:"It was an unseasonably warm January day when Grant sunned himself."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],941], DS, {s:"Irma celebrated the new job by buying a large pepperoni pizza for herself."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],942], DS, {s:"Because their parents had come down with the flu, the twins behaved themselves."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],943], DS, {s:"It was the most glamorous ball of the season and the princesses teased herself."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],944], DS, {s:"The whole sleep-over was in hysterics because Jane couldn't stop themselves from tickling everyone."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],945], DS, {s:"Kevin and Lena helped himself to another slice of pie at the potluck."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],946], DS, {s:"Magdalena baked themselves fresh cookies for the long road trip."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],947], DS, {s:"Norbert was old-fashioned and always shaved themselves before delivering his weekly lecture."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],948], DS, {s:"Ophelia hated the fact that she couldn't help themselves when it came to smoking."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],949], DS, {s:"Perry probably hurt themselves during the interview when he mentioned his famous mom."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],950], DS, {s:"Before testing the vintage lamp, Hector carefully soldered together the wires."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],951], DS, {s:"The three friends finally performed a play together, years after they'd graduated."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],952], DS, {s:"When the student left, their dutiful teacher gathered up the workbook."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],953], DS, {s:"The troopers said that the blocked highway would re-open as soon as the protester disperses."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],954], DS, {s:"In the center of campus, the tree surrounded the pond in a peaceful meadow."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],955], DS, {s:"The controversial candidate wouldn't support each other despite clear campaign promises."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],956], DS, {s:"Jeremiah snapped his finger together and called the dog in for dinner."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],957], DS, {s:"Susan was disappointed that she couldn't gather enough signature for her petition."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],958], DS, {s:"Vance heard his son yell from downstairs that the water was finally boiling."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],959], DS, {s:"Wilma hid in the closet when she heard the vandal break her window."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-GoodFill"],960], DS, {s:"Zane felt peaceful as he watched the waves wash up and dissolve his footprints."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],961], DS, {s:"Everyone at the conference became annoyed at Arturo who was constantly crinkling."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],962], DS, {s:"After nearly a week, Brianna couldn't believe that she finally subsided her aches."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],963], DS, {s:"Carla was the kind of plumber who made sure her assistant drained before leaving the job site."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],964], DS, {s:"The nurses were about to ooze just as the surgeon walked in to stop them."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],965], DS, {s:"Although the scandals resigned, the trust of the citizens would never be regained."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],966], DS, {s:"Dario knew the cars would likely faint in the hot desert sun."}, Question, {q: "Is this sentence grammatical?"}],
+
+[["Filler-BadFill"],967], DS, {s:"Because Ernestine and Francis might stick, their friends came to her aid."}, Question, {q: "Is this sentence grammatical?"}]
+
+];
+

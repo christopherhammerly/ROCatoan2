@@ -26,7 +26,7 @@ var defaults = [
         as: [['s','Yes'],['k','No']],
         randomOrder: false,
         presentHorizontally: true,
-        mode: 'speeded acceptability',
+        mode: 'self-paced reading',
         display: 'in place',
         blankText: '+',
         wordTime: 225,
@@ -56,7 +56,7 @@ function modifyRunningOrder(ro)
 var items = [
 
 ["setcounter", "__SetCounter__", { }],
-["timeoutSep", Separator, { transfer: 1000, normalMessage: "+", errorMessage: "Timed out. Please respond more quickly."}],
+["timeoutSep", Separator, { transfer: 1000, normalMessage: "", errorMessage: "Timed out. Please respond more quickly."}],
 
 ["consent", "Form", {consentRequired: true, html: {include: "consent.html"}}],
 ["intro", "SSForm", {consentRequired: true, html: {include: "intro.html"}}],
@@ -73,7 +73,6 @@ var items = [
                          ]}],
 
 
-["practice", Separator, { transfer: 1000, normalMessage: "+"}],
 ["practice", DS, {s: "Those cats was snoring loudly."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
 
 ["practice", Message, {consentRequired: false,
@@ -82,17 +81,15 @@ var items = [
                            ["p", "Let's try some more."]
                          ]}],
 
-["practice", Separator, { transfer: 1000, normalMessage: "+"}, DS, {s: "At the ball, the prince waltzed with every girl before midnight."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
-["practice", Separator, { transfer: 1000, normalMessage: "+"}, DS, {s: "Without warning, Geoffrey turned and screamed at the waiter who embarrassed itself."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
-["practice", Separator, { transfer: 1000, normalMessage: "+"}, DS, {s: "Madame de Plessy sat up all night worrying about her son, who was fighting the invaders."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
+["practice", Separator, { transfer: 1000, normalMessage: ""}, DS, {s: "At the ball, the prince waltzed with every girl before midnight."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
+["practice", Separator, { transfer: 1000, normalMessage: ""}, DS, {s: "Without warning, Geoffrey turned and screamed at the waiter who embarrassed itself."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
+["practice", Separator, { transfer: 1000, normalMessage: ""}, DS, {s: "Madame de Plessy sat up all night worrying about her son, who was fighting the invaders."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
 
 ["practice", Message, {consentRequired: false,
                    html: ["div",
                            ["p", "Alright, that's it for practice!"],
                            ["p", "Hit any key when you're ready to begin, and please pay attention throughout the experiment. Have Fun!"]
                          ]}],
-
-["practice", Separator, { transfer: 1000, normalMessage: "+"}],
 
 [["ROCCandy-MisMatch",1], DS, {s:"At the meeting, Belinda greeted the assistants who the manager supervises."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
 [["ROCCandy-MatchUnGram",1], DS, {s:"At the meeting, Belinda greeted the assistant who the manager supervise."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
