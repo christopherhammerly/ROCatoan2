@@ -73,8 +73,7 @@ var items = [
                          ]}],
 
 
-["practice", Separator, { transfer: 1000, normalMessage: "+"}],
-["practice", DS, {s: "Those cats was snoring loudly."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
+["practice", "EPDashedSentence", {s:"+"}, DS, {s: "Those cats was snoring loudly."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
 
 ["practice", Message, {consentRequired: false,
                    html: ["div",
