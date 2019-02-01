@@ -38,8 +38,7 @@ var defaults = [
         wordTime: 1000,
         wordPauseTime: 150
         },
-    DS, {q: 'Is that sentence grammatical?',
-        as: [['s','Yes'],['k','No']],
+    DS, {
         randomOrder: false,
         presentHorizontally: true,
         mode: 'speeded acceptability',
