@@ -22,6 +22,13 @@ var DS = 'DashedAcceptabilityJudgment';
 
 // Controller settings.
 var defaults = [
+    "EPDashedSentence", {
+        mode: 'speeded acceptability',
+        display: 'in place',
+        blankText: '+',
+        wordTime: 1000,
+        wordPauseTime: 150
+        },
     DS, {q: 'Is that sentence grammatical?',
         as: [['s','Yes'],['k','No']],
         randomOrder: false,
@@ -32,16 +39,6 @@ var defaults = [
         wordTime: 225,
         wordPauseTime: 100,
         timeout: 2000}
-];
-
-var defaults = [
-    "DashedSentence", {
-        mode: 'speeded acceptability',
-        display: 'in place',
-        blankText: '+',
-        wordTime: 1000,
-        wordPauseTime: 150
-        }
 ];
 
 //
