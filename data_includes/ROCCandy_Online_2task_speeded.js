@@ -38,15 +38,16 @@ var defaults = [
         wordTime: 1000,
         wordPauseTime: 150
         },
-    DS, {
-        randomOrder: false,
+    DS, {randomOrder: false,
         presentHorizontally: true,
         mode: 'speeded acceptability',
         display: 'in place',
         blankText: '+',
         wordTime: 250,
         wordPauseTime: 150,
-        timeout: 2000}
+        timeout: null,
+        hasCorrect: 1,
+        q: ''}
 ];
 
 //
