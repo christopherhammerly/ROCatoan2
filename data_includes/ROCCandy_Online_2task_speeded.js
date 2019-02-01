@@ -20,7 +20,7 @@ var shuffleSequence = seq(
 // Variable definitions.
 var DS = 'EPDashedAcceptabilityJudgment';
 
- Controller settings.
+// Controller settings.
 var defaults = [
     DS, {q: 'Is that sentence grammatical?',
         as: [['s','Yes'],['k','No']],
