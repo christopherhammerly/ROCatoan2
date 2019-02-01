@@ -114,7 +114,7 @@ var items = [
 //
 //["practice", Separator, { transfer: 1000, normalMessage: "+"}],
 
-[["ROCCandy-MisMatch",1], DS, {s:"+"}, DS, {s:"At the meeting, Belinda greeted the assistants who the manager supervises."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
+[["ROCCandy-MisMatch",1], DS, {s:"At the meeting, Belinda greeted the assistants who the manager supervises."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
 [["ROCCandy-MatchUnGram",1], DS, {s:"At the meeting, Belinda greeted the assistant who the manager supervise."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
 [["ROCCandy-MisMatchUnGram",1], DS, {s:"At the meeting, Belinda greeted the assistants who the manager supervise."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
 [["ROCCandy-Match",1], DS, {s:"At the meeting, Belinda greeted the assistant who the manager supervises."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
