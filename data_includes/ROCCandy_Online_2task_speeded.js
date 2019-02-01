@@ -113,7 +113,15 @@ var items = [
 ["practice", Message, {consentRequired: false,
                   html: ["div",
                           ["p", "How was that? That item is one that some, but not all, English speakers judge to be ungrammatical. "],
-                          ["p", "Let's try some more."]
+                          ["p", "Let's try another one."]
+                        ]}],
+
+["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I saw the students were..."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
+
+["practice", Message, {consentRequired: false,
+                  html: ["div",
+                          ["p", "That probably felt different than the last one. Many English speakers judge that last sentence to be grammatical. "],
+                          ["p", "Let's try a few in a row."]
                         ]}],
 
 ["practice", "EPDashedSentence", {s:"+"}, DS, {s: "The prince waltzed with every girl who he are..."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
