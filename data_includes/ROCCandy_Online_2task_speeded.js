@@ -33,6 +33,16 @@ var defaults = [
         wordPauseTime: 100,
         timeout: 2000}
 ];
+
+var defaults = [
+    "DashedSentence", {
+        mode: 'speeded acceptability',
+        display: 'in place',
+        blankText: '+',
+        wordTime: 1000,
+        wordPauseTime: 150
+        },
+];
 //
 //var defaults = [
 //    "EPDashedSentence", {
