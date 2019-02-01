@@ -10,8 +10,8 @@ var showProgressBar = false;
 var shuffleSequence = seq(
 //  'consent',
     'setcounter',
-    //'intro',
-    //'prepractice',
+    'intro',
+    'prepractice',
     'practice',
     sepWith("timeoutSep", rshuffle(startsWith('ROC'),startsWith('f'))),
     'debrief',
@@ -19,6 +19,12 @@ var shuffleSequence = seq(
 
 // Variable definitions.
 var DS = 'DashedAcceptabilityJudgment';
+
+//  Set the Prolific Academic Completion URL
+var sendingResultsMessage = "Please wait. Your data are being sent to the server."; 
+var completionMessage = "Thank you for your participation. Your completion code is ASRJCD6V. To complete this experiment, go to: https://app.prolific.ac/submissions/complete?cc=ASRJCD6V."; 
+var completionErrorMessage = "There was an error in sending your data to the server. You may still complete this experiment. Your completion code is ASRJCD6V. Please go to: https://app.prolific.ac/submissions/complete?cc=ASRJCD6V."; 
+
 
 // Controller settings.
 var defaults = [
