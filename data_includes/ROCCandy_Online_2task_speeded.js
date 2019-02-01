@@ -84,6 +84,10 @@ function modifyRunningOrder(ro)
                 "Message",
                 {html: "<p>Please take a short break. Press a button to continue when you're ready.</p>", transfer: "keypress"},
             true));
+            ro[i].push(new DynamicElement(
+                "Separator",
+                {transfer: 2500, normalMessage: "Hands in place! Your first sentence of this block will start soon."},
+            true));
         }
     }
     return ro;
@@ -120,6 +124,8 @@ var items = [
                           ["p", "Let's try another one."]
                         ]}],
 
+['practice',"Separator",{transfer: 2500, normalMessage: "Get your hands in place!"}],
+
 ["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I saw the students were..."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
 
 ["practice", Message, {consentRequired: false,
@@ -127,6 +133,8 @@ var items = [
                           ["p", "That probably felt different than the last one. Many English speakers judge that last sentence to be grammatical. "],
                           ["p", "Now let's try a few in a row. These will be longer, and more similar to the ones you'll see in the experiment"]
                         ]}],
+
+['practice',"Separator",{transfer: 2500, normalMessage: "Get your hands in place!"}],
 
 ["practice", "EPDashedSentence", {s:"+"}, DS, {s: "The prince waltzed with every girl who he are..."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
 ["practice", "EPDashedSentence", {s:"+"}, DS, {s: "Geoffrey turned and screamed at the waiter who the customers always is..."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
@@ -137,6 +145,8 @@ var items = [
                           ["p", "Alright, that's it for practice!"],
                           ["p", "Hit any key when you're ready to begin, and please pay attention throughout the experiment. Have Fun!"]
                         ]}],
+
+['practice',"Separator",{transfer: 2500, normalMessage: "Get your hands in place!"}],
 
 [["ROCCandy-MisMatch",1], "EPDashedSentence", {s:"+"}, DS, {s:"At the meeting, Belinda greeted the assistants who the manager supervises."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
 [["ROCCandy-MatchUnGram",1], "EPDashedSentence", {s:"+"}, DS, {s:"At the meeting, Belinda greeted the assistant who the manager supervise."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
