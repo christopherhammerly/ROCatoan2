@@ -8,10 +8,10 @@ var showProgressBar = false;
 
 // Main shuffleSequence definition
 var shuffleSequence = seq(
-//  'consent',
+    'consent',
     'setcounter',
-//    'intro',
-//    'prepractice',
+    'intro',
+    'prepractice',
     'practice',
     sepWith("timeoutSep", rshuffle(startsWith('ROC'),startsWith('f'))),
     'debrief',
