@@ -19,7 +19,9 @@ var shuffleSequence = seq(
     );
 
 // Variable definitions.
-var DS = 'DashedAcceptabilityJudgment';
+//var DS = 'DashedAcceptabilityJudgment';
+
+var DS = 'EPDashedAcceptabilityJudgment';
 
 //  Set the Prolific Academic Completion URL
 var sendingResultsMessage = "Please wait. Your data are being sent to the server."; 
