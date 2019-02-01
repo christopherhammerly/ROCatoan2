@@ -128,8 +128,8 @@ var items = [
 [["ROCCandy-Match",1], DS, {s:"At the meeting, Belinda greeted the assistant who the manager supervises."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
 
 
-[["f-GoodFillSingular",900], DS, {s:"For her daughter's birthday party, Alice hired the magician who the clown assists."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
-[["f-GoodFillSingular",901], DS, {s:"During his speech at the high school, Brad called out the students who the teacher heckles."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}]
+[["f-GoodFillSingular",900], "EPDashedSentence", {s:"+"}, DS, {s:"For her daughter's birthday party, Alice hired the magician who the clown assists."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
+[["f-GoodFillSingular",901], "EPDashedSentence", {s:"+"}, DS, {s:"During his speech at the high school, Brad called out the students who the teacher heckles."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}]
 
 
 ];
