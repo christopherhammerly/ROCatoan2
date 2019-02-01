@@ -20,28 +20,8 @@ var shuffleSequence = seq(
 // Variable definitions.
 var DS = 'EPDashedAcceptabilityJudgment';
 
-// Controller settings.
-//var defaults = [
-//    DS, {q: 'Is that sentence grammatical?',
-//        as: [['s','Yes'],['k','No']],
-//        randomOrder: false,
-//        presentHorizontally: true,
-//        mode: 'speeded acceptability',
-//        display: 'in place',
-//        blankText: '+',
-//        wordTime: 225,
-//        wordPauseTime: 100,
-//        timeout: 2000}
-//];
-//
+ Controller settings.
 var defaults = [
-    "EPDashedSentence", {
-        mode: 'speeded acceptability',
-        display: 'in place',
-        blankText: '+',
-        wordTime: 1000,
-        wordPauseTime: 150
-        },
     DS, {q: 'Is that sentence grammatical?',
         as: [['s','Yes'],['k','No']],
         randomOrder: false,
@@ -53,6 +33,26 @@ var defaults = [
         wordPauseTime: 100,
         timeout: 2000}
 ];
+//
+//var defaults = [
+//    "EPDashedSentence", {
+//        mode: 'speeded acceptability',
+//        display: 'in place',
+//        blankText: '+',
+//        wordTime: 1000,
+//        wordPauseTime: 150
+//        },
+//    DS, {q: 'Is that sentence grammatical?',
+//        as: [['s','Yes'],['k','No']],
+//        randomOrder: false,
+//        presentHorizontally: true,
+//        mode: 'speeded acceptability',
+//        display: 'in place',
+//        blankText: '+',
+//        wordTime: 225,
+//        wordPauseTime: 100,
+//        timeout: 2000}
+//];
 
 // Add breaks every 12 items
 function modifyRunningOrder(ro)
