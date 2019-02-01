@@ -41,8 +41,9 @@ var defaults = [
         blankText: '+',
         wordTime: 1000,
         wordPauseTime: 150
-        },
+        }
 ];
+
 //
 //var defaults = [
 //    "EPDashedSentence", {
