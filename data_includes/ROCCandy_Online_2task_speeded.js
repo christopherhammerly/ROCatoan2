@@ -47,6 +47,7 @@ var defaults = [
         wordPauseTime: 150,
         timeout: null,
         hasCorrect: 1,
+        as: [['s','were'],['k','was']],
         q: ''}
 ];
 
@@ -110,7 +111,7 @@ var items = [
                          ]}],
 
 
-["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I know those cats was...",as: [['s','were'],['k','was']]},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
+["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I know those cats was..."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
 
 ["practice", Message, {consentRequired: false,
                   html: ["div",
