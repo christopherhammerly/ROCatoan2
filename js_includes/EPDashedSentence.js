@@ -70,7 +70,7 @@ jqueryWidget: {
 
         // Defaults.
         this.unshownBorderColor = dget(this.options, "unshownBorderColor", "#9ea4b1");
-        this.shownBorderColor = dget(this.options, "shownBorderColor", "black");
+        this.shownBorderColor = dget(this.options, "shownBorderColor", "grey");
         this.unshownWordColor = dget(this.options, "unshownWordColor", this.background);
         this.shownWordColor = dget(this.options, "shownWordColor", "black");
 
