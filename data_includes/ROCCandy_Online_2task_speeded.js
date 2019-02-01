@@ -18,7 +18,7 @@ var shuffleSequence = seq(
     'exit');
 
 // Variable definitions.
-var DS = 'EPDashedAcceptabilityJudgment';
+var DS = 'DashedAcceptabilityJudgment';
 
 // Controller settings.
 var defaults = [
