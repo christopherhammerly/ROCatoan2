@@ -108,7 +108,7 @@ var items = [
                          ]}],
 
 
-["practice", "EPDashedSentence", {s:"+"}, DS, {s: "Those cats was snoring loudly."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
+["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I know those cats was..."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
 
 ["practice", Message, {consentRequired: false,
                   html: ["div",
@@ -116,9 +116,9 @@ var items = [
                           ["p", "Let's try some more."]
                         ]}],
 
-["practice", "EPDashedSentence", {s:"+"}, DS, {s: "At the ball, the prince waltzed with every girl before midnight."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
-["practice", "EPDashedSentence", {s:"+"}, DS, {s: "Without warning, Geoffrey turned and screamed at the waiter who embarrassed itself."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
-["practice", "EPDashedSentence", {s:"+"}, DS, {s: "Madame de Plessy sat up all night worrying about her son, who was fighting the invaders."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
+["practice", "EPDashedSentence", {s:"+"}, DS, {s: "The prince waltzed with every girl who he are..."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
+["practice", "EPDashedSentence", {s:"+"}, DS, {s: "Geoffrey turned and screamed at the waiter who the customers always is..."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
+["practice", "EPDashedSentence", {s:"+"}, DS, {s: "John sat up all night worrying about her son who is..."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
 
 ["practice", Message, {consentRequired: false,
                   html: ["div",
