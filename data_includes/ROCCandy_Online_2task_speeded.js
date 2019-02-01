@@ -104,7 +104,7 @@ var items = [
 
 ["practice", Message, {consentRequired: false,
                    html: ["div",
-                           ["p", "Let's try one practice item."]
+                           ["p", "Let's try the first practice item."]
                          ]}],
 
 
@@ -112,7 +112,7 @@ var items = [
 
 ["practice", Message, {consentRequired: false,
                   html: ["div",
-                          ["p", "How was that? That item is one that some, but not all, English speakers judge to be ungrammatical. "],
+                          ["p", "How was that? That item is one that some, but not all, English speakers judge to be ungrammatical."],
                           ["p", "Let's try another one."]
                         ]}],
 
@@ -121,7 +121,7 @@ var items = [
 ["practice", Message, {consentRequired: false,
                   html: ["div",
                           ["p", "That probably felt different than the last one. Many English speakers judge that last sentence to be grammatical. "],
-                          ["p", "Let's try a few in a row."]
+                          ["p", "Now let's try a few in a row. These will be longer, and more similar to the ones you'll see in the experiment"]
                         ]}],
 
 ["practice", "EPDashedSentence", {s:"+"}, DS, {s: "The prince waltzed with every girl who he are..."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
