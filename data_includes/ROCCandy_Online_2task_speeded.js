@@ -106,8 +106,10 @@ var items = [
 
 ["practice", Message, {consentRequired: false,
                    html: ["div",
-                           ["p", "Let's try the first practice item."]
+                           ["p", "Let's try the first practice item. After clicking the link you should put your left and right pointer fingers on the 'F' and 'J' keys"]
                          ]}],
+
+['practice',"Separator",{transfer: 2500, normalMessage: "Get your hands in place!"}],
 
 
 ["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I know those cats was..."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
