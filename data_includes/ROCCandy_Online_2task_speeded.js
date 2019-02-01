@@ -19,9 +19,9 @@ var shuffleSequence = seq(
     );
 
 // Variable definitions.
-//var DS = 'DashedAcceptabilityJudgment';
+var DS = 'DashedAcceptabilityJudgment';
 
-var DS = 'EPDashedAcceptabilityJudgment';
+//var DS = 'EPDashedAcceptabilityJudgment';
 
 //  Set the Prolific Academic Completion URL
 var sendingResultsMessage = "Please wait. Your data are being sent to the server."; 
@@ -38,17 +38,16 @@ var defaults = [
         wordTime: 1000,
         wordPauseTime: 150
         },
-    DS, {randomOrder: false,
+    DS, {q: 'Is that sentence grammatical?',
+        as: [['s','Yes'],['k','No']],
+        randomOrder: false,
         presentHorizontally: true,
         mode: 'speeded acceptability',
         display: 'in place',
         blankText: '+',
-        wordTime: 250,
-        wordPauseTime: 150,
-        timeout: null,
-        hasCorrect: 1,
-        as: [['s','were'],['k','was']],
-        q: ''}
+        wordTime: 225,
+        wordPauseTime: 100,
+        timeout: 2000}
 ];
 
 //
