@@ -39,7 +39,7 @@ var defaults = [
         wordPauseTime: 150
         },
     DS, {q: 'Is that sentence grammatical?',
-        as: [['s','Yes'],['k','No']],
+        as: [['j','Grammatical'],['k','Ungrammatical']],
         randomOrder: false,
         presentHorizontally: true,
         mode: 'speeded acceptability',
@@ -110,13 +110,13 @@ var items = [
 
 ["practice", Message, {consentRequired: false,
                    html: ["div",
-                           ["p", "Let's try the first practice item. After clicking the link you should put your left and right pointer fingers on the 'F' and 'J' keys"]
+                           ["p", "Let's try the first practice item. After clicking the link you should get your hands reading. Your right hand will be on 'J' and 'K' (pointer finger on 'J' and middle finger on 'K') and your left hand on the '1-3' keys"]
                          ]}],
 
 ['practice',"Separator",{transfer: 2500, normalMessage: "Get your hands in place!"}],
 
 
-["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I know those cats was..."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
+["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I know those cats was..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
 
 ["practice", Message, {consentRequired: false,
                   html: ["div",
@@ -126,7 +126,7 @@ var items = [
 
 ['practice',"Separator",{transfer: 2500, normalMessage: "Get your hands in place!"}],
 
-["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I saw the students were..."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
+["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I saw the students were..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
 
 ["practice", Message, {consentRequired: false,
                   html: ["div",
@@ -136,9 +136,9 @@ var items = [
 
 ['practice',"Separator",{transfer: 2500, normalMessage: "Get your hands in place!"}],
 
-["practice", "EPDashedSentence", {s:"+"}, DS, {s: "The prince waltzed with every girl who he are..."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
-["practice", "EPDashedSentence", {s:"+"}, DS, {s: "Geoffrey turned and screamed at the waiter who the customers always is..."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
-["practice", "EPDashedSentence", {s:"+"}, DS, {s: "John sat up all night worrying about her son who is..."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
+["practice", "EPDashedSentence", {s:"+"}, DS, {s: "The prince waltzed with every girl who he are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
+["practice", "EPDashedSentence", {s:"+"}, DS, {s: "Geoffrey turned and screamed at the waiter who the customers always is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
+["practice", "EPDashedSentence", {s:"+"}, DS, {s: "John sat up all night worrying about her son who is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
 
 ["practice", Message, {consentRequired: false,
                   html: ["div",
@@ -148,14 +148,14 @@ var items = [
 
 ['practice',"Separator",{transfer: 2500, normalMessage: "Get your hands in place!"}],
 
-[["ROCCandy-MisMatch",1], "EPDashedSentence", {s:"+"}, DS, {s:"At the meeting, Belinda greeted the assistants who the manager supervises."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
-[["ROCCandy-MatchUnGram",1], "EPDashedSentence", {s:"+"}, DS, {s:"At the meeting, Belinda greeted the assistant who the manager supervise."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
-[["ROCCandy-MisMatchUnGram",1], "EPDashedSentence", {s:"+"}, DS, {s:"At the meeting, Belinda greeted the assistants who the manager supervise."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
-[["ROCCandy-Match",1], "EPDashedSentence", {s:"+"}, DS, {s:"At the meeting, Belinda greeted the assistant who the manager supervises."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
+[["ROCCandy-MisMatch",1], "EPDashedSentence", {s:"+"}, DS, {s:"At the meeting, Belinda greeted the assistants who the manager supervises."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
+[["ROCCandy-MatchUnGram",1], "EPDashedSentence", {s:"+"}, DS, {s:"At the meeting, Belinda greeted the assistant who the manager supervise."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
+[["ROCCandy-MisMatchUnGram",1], "EPDashedSentence", {s:"+"}, DS, {s:"At the meeting, Belinda greeted the assistants who the manager supervise."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
+[["ROCCandy-Match",1], "EPDashedSentence", {s:"+"}, DS, {s:"At the meeting, Belinda greeted the assistant who the manager supervises."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
 
 
-[["f-GoodFillSingular",900], "EPDashedSentence", {s:"+"}, DS, {s:"For her daughter's birthday party, Alice hired the magician who the clown assists."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}],
-[["f-GoodFillSingular",901], "EPDashedSentence", {s:"+"}, DS, {s:"During his speech at the high school, Brad called out the students who the teacher heckles."},Question,{q: 'Please indicate your confidence',as: ['Very confident','Somewhat confident','Not confident'],randomOrder: false,presentHorizontally: false}]
+[["f-GoodFillSingular",900], "EPDashedSentence", {s:"+"}, DS, {s:"For her daughter's birthday party, Alice hired the magician who the clown assists."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
+[["f-GoodFillSingular",901], "EPDashedSentence", {s:"+"}, DS, {s:"During his speech at the high school, Brad called out the students who the teacher heckles."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}]
 
 
 ];
