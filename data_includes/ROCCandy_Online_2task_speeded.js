@@ -41,7 +41,7 @@ var defaults = [
     DS, {q: 'Is that sentence grammatical?',
         as: [['j','Grammatical'],['k','Ungrammatical']],
         randomOrder: false,
-        presentHorizontally: true,
+        presentHorizontally: false,
         mode: 'speeded acceptability',
         display: 'in place',
         blankText: '+',
