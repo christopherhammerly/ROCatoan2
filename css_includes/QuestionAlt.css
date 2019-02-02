@@ -16,11 +16,11 @@ li.scale-box {
     float: left;
     list-style: none;
     margin-left: 3;
-    padding-left: 3em;
+    padding-left: 5em;
     margin-right: 3em;
-    padding-right: 3em;
+    padding-right: 5em;
     border: 1px #9ea4b1 solid;
-    width: 2em;
+    width: 4em;
     height: 2em;
     padding-top: 0.5em;
     text-align: center;
