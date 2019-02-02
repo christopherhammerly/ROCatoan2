@@ -10,8 +10,8 @@ var showProgressBar = false;
 var shuffleSequence = seq(
 //  'consent',
     'setcounter',
-    'intro',
-    'prepractice',
+    //'intro',
+    //'prepractice',
     'practice',
     sepWith("timeoutSep", rshuffle(startsWith('ROC'),startsWith('f'))),
     'debrief',
@@ -39,7 +39,7 @@ var defaults = [
         wordPauseTime: 150
         },
     DS, {q: '',
-        as: [['j','Grammatical'],['k','Ungrammatical']],
+        as: [['j','J = Grammatical'],['k','K = Ungrammatical']],
         randomOrder: false,
         presentHorizontally: true,
         mode: 'speeded acceptability',
