@@ -148,14 +148,16 @@ var items = [
 
 ['practice',"Separator",{transfer: 2500, normalMessage: "Get your hands in place!"}],
 
-[["ROCCandy-MisMatch",1], "EPDashedSentence", {s:"+"}, DS, {s:"At the meeting, Belinda greeted the assistants who the manager supervises."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROCCandy-MatchUnGram",1], "EPDashedSentence", {s:"+"}, DS, {s:"At the meeting, Belinda greeted the assistant who the manager supervise."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROCCandy-MisMatchUnGram",1], "EPDashedSentence", {s:"+"}, DS, {s:"At the meeting, Belinda greeted the assistants who the manager supervise."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["ROCCandy-Match",1], "EPDashedSentence", {s:"+"}, DS, {s:"At the meeting, Belinda greeted the assistant who the manager supervises."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
+[["ROC-MatchGram",      1],   "EPDashedSentence", {s:"+"}, DS, {s:"At the meeting, Belinda greeted the assistants who the manager supervises."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
+[["ROC-MatchUnGram",    1],   "EPDashedSentence", {s:"+"}, DS, {s:"At the meeting, Belinda greeted the assistant who the manager supervise."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
+[["ROC-PPMismatchGram",   1],   "EPDashedSentence", {s:"+"}, DS, {s:"At the meeting, Belinda greeted the assistants who the manager supervise."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
+[["ROC-PPMismatchUngram", 1],   "EPDashedSentence", {s:"+"}, DS, {s:"At the meeting, Belinda greeted the assistant who the manager supervises."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
+[["ROC-ORCMismatchGram",  1],   "EPDashedSentence", {s:"+"}, DS, {s:"At the meeting, Belinda greeted the assistants who the manager supervise."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
+[["ROC-ORCMismatchUngram",  1],   "EPDashedSentence", {s:"+"}, DS, {s:"At the meeting, Belinda greeted the assistant who the manager supervises."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
 
 
-[["f-GoodFillSingular",900], "EPDashedSentence", {s:"+"}, DS, {s:"For her daughter's birthday party, Alice hired the magician who the clown assists."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-[["f-GoodFillSingular",901], "EPDashedSentence", {s:"+"}, DS, {s:"During his speech at the high school, Brad called out the students who the teacher heckles."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}]
+[["f-GramFill",900], "EPDashedSentence", {s:"+"}, DS, {s:"For her daughter's birthday party, Alice hired the magician who the clown assists."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
+[["f-UngramFill",901], "EPDashedSentence", {s:"+"}, DS, {s:"During his speech at the high school, Brad called out the students who the teacher heckles."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}]
 
 
 ];
