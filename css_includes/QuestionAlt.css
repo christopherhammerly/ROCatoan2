@@ -15,9 +15,9 @@ li.normal-answer {
 li.scale-box {
     float: left;
     list-style: none;
-    margin-left: 8em;
+    margin-left: 4em;
     padding-left: 3em;
-    margin-right: 8em;
+    margin-right: 4em;
     padding-right: 4em;
     border: 1px #9ea4b1 solid;
     width: 10em;
