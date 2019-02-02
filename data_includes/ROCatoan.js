@@ -36,7 +36,7 @@ var defaults = [
         display: 'in place',
         blankText: '+',
         wordTime: 1000,
-        wordPauseTime: 150
+        wordPauseTime: 100
         },
     DS, {q: '',
         as: [['j','J = Grammatical'],['k','K = Ungrammatical']],
