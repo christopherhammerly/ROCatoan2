@@ -10,8 +10,8 @@ var showProgressBar = false;
 var shuffleSequence = seq(
 //  'consent',
     'setcounter',
-    //'intro',
-    //'prepractice',
+    'intro',
+    'prepractice',
     'practice',
     sepWith("timeoutSep", rshuffle(startsWith('ROC'),startsWith('f'))),
     'debrief',
@@ -143,7 +143,7 @@ var items = [
 ["practice", Message, {consentRequired: false,
                   html: ["div",
                           ["p", "Alright, that's it for practice!"],
-                          ["p", "Hit any key when you're ready to begin, and please pay attention throughout the experiment. Have Fun!"]
+                          ["p", "Press the link when you're ready to begin, and please pay attention throughout the experiment. Have Fun!"]
                         ]}],
 
 ['practice',"Separator",{transfer: 2500, normalMessage: "Get your hands in place!"}],
