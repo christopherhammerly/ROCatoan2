@@ -137,8 +137,8 @@ var items = [
 ['practice',"Separator",{transfer: 2500, normalMessage: "Get your hands in place!"}],
 
 ["practice", "EPDashedSentence", {s:"+"}, DS, {s: "The prince waltzed with every girl who he are..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-["practice", "EPDashedSentence", {s:"+"}, DS, {s: "Geoffrey turned and screamed at the waiter who the customers always is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
-["practice", "EPDashedSentence", {s:"+"}, DS, {s: "John sat up all night worrying about her son who is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
+["practice", "EPDashedSentence", {s:"+"}, DS, {s: "I turned and screamed at the waiter who the customers always is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
+["practice", "EPDashedSentence", {s:"+"}, DS, {s: "Did you sit up all night worrying about the man who is..."},Question,{q: 'Please rate your confidence',as: ['Not at all confident','Somewhat confident','Very confident'],randomOrder: false,presentHorizontally: false}],
 
 ["practice", Message, {consentRequired: false,
                   html: ["div",
