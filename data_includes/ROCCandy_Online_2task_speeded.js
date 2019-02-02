@@ -19,7 +19,7 @@ var shuffleSequence = seq(
     );
 
 // Variable definitions.
-var DS = 'DashedAcceptabilityJudgment';
+var DS = 'EPDashedAcceptabilityJudgment';
 
 //var DS = 'EPDashedAcceptabilityJudgment';
 
