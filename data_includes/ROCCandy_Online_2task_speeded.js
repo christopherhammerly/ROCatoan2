@@ -38,7 +38,7 @@ var defaults = [
         wordTime: 1000,
         wordPauseTime: 150
         },
-    DS, {q: 'Is that sentence grammatical (J) or ungrammatical (K)?',
+    DS, {q: '',
         as: [['j','Grammatical'],['k','Ungrammatical']],
         randomOrder: false,
         presentHorizontally: true,
@@ -110,7 +110,7 @@ var items = [
 
 ["practice", Message, {consentRequired: false,
                    html: ["div",
-                           ["p", "Let's try the first practice item. After clicking the link you should get your hands reading. Your right hand will be on 'J' and 'K' (pointer finger on 'J' and middle finger on 'K') and your left hand on the '1-3' keys"]
+                           ["p", "Let's try the first practice item. After clicking the link you should get your hands ready. Your right hand will be on 'J' and 'K' (pointer finger on 'J' and middle finger on 'K') and your left hand on the '1-3' keys"]
                          ]}],
 
 ['practice',"Separator",{transfer: 2500, normalMessage: "Get your hands in place!"}],
