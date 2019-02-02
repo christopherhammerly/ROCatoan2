@@ -39,7 +39,7 @@ var defaults = [
         wordPauseTime: 150
         },
     DS, {q: 'Is that sentence grammatical (J) or ungrammatical (K)?',
-        as: [['j','Gram'],['k','Ungramm']],
+        as: [['j','Grammatical'],['k','Ungrammatical']],
         randomOrder: false,
         presentHorizontally: true,
         mode: 'speeded acceptability',
