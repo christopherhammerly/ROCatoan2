@@ -86,7 +86,7 @@ function modifyRunningOrder(ro)
             true));
             ro[i].push(new DynamicElement(
                 "Separator",
-                {transfer: 2500, normalMessage: "Hands in place! Your first sentence of this block will start soon."},
+                {transfer: 2500, normalMessage: "Hands in place! The sentences are about to begin again."},
             true));
         }
     }
