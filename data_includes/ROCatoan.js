@@ -4,7 +4,7 @@
 
 // Asserts breaks every 12 items.
 
-var showProgressBar = false;
+var showProgressBar = true;
 
 // Main shuffleSequence definition
 var shuffleSequence = seq(
