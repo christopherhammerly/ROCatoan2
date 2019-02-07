@@ -78,7 +78,7 @@ function modifyRunningOrder(ro)
     {
         if (i % 12 == 10
             && i > 13
-            && i < 200)
+            && i < 385)
         {
             ro[i].push(new DynamicElement(
                 "Message",
